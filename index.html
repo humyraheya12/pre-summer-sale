@@ -239,11 +239,34 @@
 <div class="divider"></div>
 <ol>
   <li>Total price: <span id="total-price"></span> </li>
-  <li>Discount : <span id="dicount-price"></span> </li>
+  <li>Discount : <span id="discount-price"></span> </li>
   <li>Total: <span id="total"></span></li>
 </ol>
 <div class="divider"></div>
-<button class="btn btn-wide bg-pink-400 text-white mt-24">Make Purchase</button>
+<!-- <button class="btn btn-wide bg-pink-400 text-white mt-24">Make Purchase</button> -->
+
+<!-- Open the modal using ID.showModal() method -->
+<button class="btn btn-wide bg-pink-400 text-white mt-32 ml-10 lg:ml-3 lg:mt-44" onclick="my_modal_1.showModal()">open modal</button>
+<dialog id="my_modal_1" class="modal ">
+  <div class="modal-box space-y-5">
+    
+    <div class="flex items-center justify-center">
+      <img class="" src="images/congo.png" alt="">
+    </div>
+    <h3 class="font-bold text-lg text-center">Congratulations!</h3>
+    <p class="text-center">Your Purchase the product</p>
+    <div class="">
+      <form method="">
+        <!-- if there is a button in form, it will close the modal -->
+        
+<div class="flex items-center justify-center">
+  <button class="btn btn-wide bg-pink-400 text-white ">Go Home</button>
+</div>
+        </div>
+      </form>
+    </div>
+  </div>
+</dialog>
 </div>
 
 
