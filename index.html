@@ -32,10 +32,10 @@
       
 </section>
    </header>
-   <main class="flex space-x-5 bg-gray-100">
+   <main class="lg:flex grid space-x-5 bg-gray-100">
     <section>
    <!-- card section -->
-<div class="lg:flex lg:col-span-3">
+<div class="lg:flex lg:col-span-3 col-span-1">
 <div class="p-5">
     <h3 class="text-black text-3xl font-semibold lg:pt-16 pb-3">
         Kitchenware
@@ -233,16 +233,14 @@
  <button id="coupon-btn" class="btn bg-[#1DD100] text-white rounded-l-none">Apply</button>
 </div>
 <div class="bg-white h-96 p-5 rounded-lg ">
-  <ol>
-    <li>1. Home Cooker</li>
-  <li>2. Sports cates</li>
-  <li>3. Home Cooker</li>
-  </ol>
+  <div id="title-container">
+
+  </div>
 <div class="divider"></div>
 <ol>
-  <li>Total price: 257.00TK</li>
-  <li>Discount : 51.40TK</li>
-  <li>Total: 205.60 TK</li>
+  <li>Total price: <span id="total-price"></span> </li>
+  <li>Discount : <span id="dicount-price"></span> </li>
+  <li>Total: <span id="total"></span></li>
 </ol>
 <div class="divider"></div>
 <button class="btn btn-wide bg-pink-400 text-white mt-24">Make Purchase</button>
